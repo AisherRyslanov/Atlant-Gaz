@@ -1,0 +1,190 @@
+@import "reset";
+@import "verables";
+
+
+#header {
+  background: #222222;
+  padding: 20px;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+    &--call {
+      padding: 0 150px;
+      @include block
+    }
+    &--num{
+      font-size: 24px;
+      color: #F1F1F1;
+    }
+    &--fullhouse {
+      font-size: 16px;
+      color: #2194FF;
+      margin-left: -330px;
+      margin-top: 22px;
+    }
+    &--urgent{
+      font-size: 16px;
+      line-height: 22px;
+      text-decoration-line: underline;
+      color: #2194FF;
+      text-decoration: none;
+    }
+  }
+}
+
+#section {
+  background: #222222;
+  padding: 20px 0;
+  .section {
+    &--blue{
+      color: #2194FF;
+    }
+    &--icon{
+    }
+    span{
+      padding: 222px;
+    }
+    small{
+      @include small
+    }
+    &--wea{
+      margin-left: 40px;
+    }
+    &--delivery{
+      font-size: 64px;
+      color: #2194FF;
+      padding: 20px 0;
+    }
+    &--moscow{
+      font-size: 24px;
+      color: #F1F1F1;
+      padding: 0 0 20px 0;
+    }
+    &--button{
+      width: 395px;
+      height: 87px;
+      background: #2194FF;
+      box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+      border-radius: 11px;
+      font-size: 22px;
+      text-align: center;
+      color: #F1F1F1;
+      text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+      transition: 1s;
+    }
+    &--button:hover{
+      background: #2194FF;
+      color: #F1F1F1;
+    }
+    &--deli{
+      margin-top: 170px;
+    }
+    &--kamaz{
+        margin-left: 400px;
+      margin-top: -380px;
+    }
+  }
+}
+
+#price {
+  background: #000d1a;
+  padding: 10px 0 190px 0;
+  .price {
+
+    h1{
+      font-size: 36px;
+      text-align: center;
+      color: #2194FF;
+      padding: 30px 0 50px 0;
+    }
+    &--title{
+      margin-left: 100px;
+    }
+    &--propan{
+      font-size: 36px;
+      color: white;
+    }
+    &--rub{
+      font-size: 24px;
+      color: #2194FF;
+    }
+    &--phizic{
+      color: rgba(241, 241, 241, 0.58);
+    }
+    &--btn{
+      font-size: 18px;
+      text-align: center;
+      color: #F1F1F1;
+      width: 155px;
+      height: 43px;
+      background: #2194FF;
+      border-radius: 50px;
+    }
+    &--friend{
+      position: absolute;
+      margin-top: -180px;
+      margin-left: 555px;
+      font-size: 20px;
+      color: #F1F1F1;
+      opacity: 0.7;
+    }
+    &--propane{
+      margin-left: 570px;
+      color: rgba(241, 241, 241, 0.7);
+      margin-top: -155px;
+      h3{
+        font-size: 36px;
+      }
+    }
+    &--butana{
+      margin-left: 700px;
+      color: rgba(241, 241, 241, 0.7);
+      margin-top: -70px;
+      h3{
+        font-size: 36px;
+      }
+    }
+    &--butan{
+      margin-left: 232px;
+      margin-top: -330px;
+    }
+    &--truck{
+      margin-left: -350px;
+    }
+
+  }
+}
+
+#select {
+  .select {
+
+  }
+}
+
+#reviews {
+  .reviews {
+
+  }
+}
+
+#questions {
+  .questions {
+
+  }
+}
+
+#answers {
+  .answers {
+
+  }
+}
+
+#map {
+  .map {
+
+  }
+}

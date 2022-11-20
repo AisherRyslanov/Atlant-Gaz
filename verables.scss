@@ -1,0 +1,9 @@
+@mixin block{
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin small{
+  font-size: 16px;
+  color: rgba(241, 241, 241, 0.67);
+}

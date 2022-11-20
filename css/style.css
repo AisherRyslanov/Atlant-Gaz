@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+#header {
+  background: #222222;
+  padding: 20px;
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header--call {
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+}
+#header .header--num {
+  font-size: 24px;
+  color: #F1F1F1;
+}
+#header .header--fullhouse {
+  font-size: 16px;
+  color: #2194FF;
+  margin-left: -330px;
+  margin-top: 22px;
+}
+#header .header--urgent {
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #2194FF;
+  text-decoration: none;
+}
+
+#section {
+  background: #222222;
+  padding: 20px 0;
+}
+#section .section--blue {
+  color: #2194FF;
+}
+#section .section span {
+  padding: 222px;
+}
+#section .section small {
+  font-size: 16px;
+  color: rgba(241, 241, 241, 0.67);
+}
+#section .section--wea {
+  margin-left: 40px;
+}
+#section .section--delivery {
+  font-size: 64px;
+  color: #2194FF;
+  padding: 20px 0;
+}
+#section .section--moscow {
+  font-size: 24px;
+  color: #F1F1F1;
+  padding: 0 0 20px 0;
+}
+#section .section--button {
+  width: 395px;
+  height: 87px;
+  background: #2194FF;
+  box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+  border-radius: 11px;
+  font-size: 22px;
+  text-align: center;
+  color: #F1F1F1;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+  transition: 1s;
+}
+#section .section--button:hover {
+  background: #2194FF;
+  color: #F1F1F1;
+}
+#section .section--deli {
+  margin-top: 170px;
+}
+#section .section--kamaz {
+  margin-left: 400px;
+  margin-top: -380px;
+}
+
+#price {
+  background: #000d1a;
+  padding: 10px 0 190px 0;
+}
+#price .price h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #2194FF;
+  padding: 30px 0 50px 0;
+}
+#price .price--title {
+  margin-left: 100px;
+}
+#price .price--propan {
+  font-size: 36px;
+  color: white;
+}
+#price .price--rub {
+  font-size: 24px;
+  color: #2194FF;
+}
+#price .price--phizic {
+  color: rgba(241, 241, 241, 0.58);
+}
+#price .price--btn {
+  font-size: 18px;
+  text-align: center;
+  color: #F1F1F1;
+  width: 155px;
+  height: 43px;
+  background: #2194FF;
+  border-radius: 50px;
+}
+#price .price--friend {
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 555px;
+  font-size: 20px;
+  color: #F1F1F1;
+  opacity: 0.7;
+}
+#price .price--propane {
+  margin-left: 570px;
+  color: rgba(241, 241, 241, 0.7);
+  margin-top: -155px;
+}
+#price .price--propane h3 {
+  font-size: 36px;
+}
+#price .price--butana {
+  margin-left: 700px;
+  color: rgba(241, 241, 241, 0.7);
+  margin-top: -70px;
+}
+#price .price--butana h3 {
+  font-size: 36px;
+}
+#price .price--butan {
+  margin-left: 232px;
+  margin-top: -330px;
+}
+#price .price--truck {
+  margin-left: -350px;
+}
+
+/*# sourceMappingURL=style.css.map */
