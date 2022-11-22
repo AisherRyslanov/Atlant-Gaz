@@ -26,6 +26,17 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+#header .header--logo {
+  animation: logo 2s linear;
+}
+@keyframes logo {
+  0% {
+    margin-left: -300px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
 #header .header--bars {
   font-size: 40px;
 }
@@ -269,6 +280,21 @@ body {
 }
 #price .price--truck {
   margin-left: 350px;
+  animation: truck 2s;
+}
+@keyframes truck {
+  0% {
+    margin-left: -300px;
+  }
+  40% {
+    margin-top: -40px;
+  }
+  80% {
+    margin-top: 40px;
+  }
+  100% {
+    margin-left: 350px;
+  }
 }
 #price .price--arrow {
   position: absolute;
@@ -380,6 +406,53 @@ body {
 #select .select #убрать:checked ~ .стандартный,
 #select .select #убрать:checked ~ .оптовый {
   display: none;
+}
+#select .select .малый {
+  animation: mal 2s;
+}
+@keyframes mal {
+  0% {
+    margin-left: -1000px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+#select .select .средний {
+  animation: sred 2s;
+}
+@keyframes sred {
+  0% {
+    margin-left: 100px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+#select .select .стандартный {
+  animation: stan 2s;
+}
+@keyframes stan {
+  0% {
+    margin-left: -1000px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+#select .select .оптовый {
+  animation: wholesale 2s;
+}
+@keyframes wholesale {
+  0% {
+    margin-left: 100px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+#select .select .стандартный {
+  animation: stan 2s;
 }
 #select .select label {
   font-size: 18px;
@@ -611,6 +684,25 @@ body {
   border: 1px solid #DEDEDE;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  animation: name 2s;
+}
+@keyframes name {
+  0% {
+    margin-left: -500px;
+  }
+  40% {
+    margin-top: 50px;
+  }
+  80% {
+    margin-top: -50px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+#answers .answers--phone {
+  margin-top: 30px;
+  animation: phone 2s;
 }
 #answers .answers--phone {
   margin-top: 30px;
@@ -621,6 +713,19 @@ body {
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
+@keyframes phone {
+  0% {
+    margin-left: 100px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+#answers .answers--qustions {
+  margin-top: 30px;
+  animation: name 2s;
+  width: 402px;
+  height: 112px;
 #answers .answers--qustions {
   margin-top: 30px;
   width: 402px;
@@ -629,6 +734,20 @@ body {
   border: 1px solid #DEDEDE;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+}
+@keyframes name {
+  0% {
+    margin-left: -500px;
+  }
+  40% {
+    margin-top: 50px;
+  }
+  80% {
+    margin-top: -50px;
+  }
+  100% {
+    margin-left: 0;
+  }
 }
 #answers .answers--inp {
   display: flex;
@@ -640,6 +759,7 @@ body {
   filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
   border-radius: 40px;
   margin-left: 600px;
+  margin-top: -450px;
   margin-top: -500px;
 }
 #answers .answers--quest {

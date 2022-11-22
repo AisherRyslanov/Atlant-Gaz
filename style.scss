@@ -11,6 +11,20 @@
     align-items: center;
     justify-content: space-between;
 
+    &--logo {
+      animation: logo 2s linear;
+    }
+
+    @keyframes logo {
+      0% {
+        margin-left: -300px;
+      }
+      100% {
+        margin-left: 0px;
+      }
+    }
+
+
     &--bars {
       font-size: 40px;
     }
@@ -90,6 +104,16 @@
     #check--menu:checked ~ .header--burger--line--first {
       display: none;
     }
+
+    #check--menu:checked ~ .header--burger--line--second {
+      transform: rotate(45deg);
+    }
+
+    #check--menu:checked ~ .header--burger--line--third {
+      transform: rotate(-45deg);
+    }
+
+
 
     #check--menu:checked ~ .header--burger--line--second {
       transform: rotate(45deg);
@@ -203,6 +227,7 @@
       margin-top: -380px;
     }
 
+
     &--animg {
       animation: 2s circleKey linear infinite;
     }
@@ -267,6 +292,13 @@
       color: #2194FF;
     }
 
+    }
+
+    &--btn:hover {
+      background: #F1F1F1;
+      color: #2194FF;
+    }
+
     &--friend {
       position: absolute;
       margin-top: -180px;
@@ -303,6 +335,24 @@
 
     &--truck {
       margin-left: 350px;
+      animation: truck 2s ;
+    }
+
+    @keyframes truck {
+      0% {
+        margin-left: -300px;
+      }
+      40% {
+        margin-top: -40px;
+      }
+      80%{
+        margin-top: 40px;
+      }
+      100% {
+        margin-left: 350px;
+      }
+    }
+
     }
 
     &--arrow {
@@ -436,6 +486,59 @@
     #убрать:checked ~ .стандартный,
     #убрать:checked ~ .оптовый, {
       display: none;
+    }
+    .малый{
+    animation: mal 2s ;
+    }
+
+
+   @keyframes mal {
+     0% {
+       margin-left: -1000px;
+     }
+
+     100% {
+       margin-left: 0;
+     }
+   }
+    .средний{
+      animation: sred 2s;
+    }
+    @keyframes sred {
+      0% {
+        margin-left: 100px;
+      }
+      100%{
+        margin-left: 0;
+      }
+    }
+    .стандартный{
+      animation: stan 2s ;
+    }
+
+
+    @keyframes stan {
+      0% {
+        margin-left: -1000px;
+      }
+
+      100% {
+        margin-left: 0;
+      }
+    }
+    .оптовый{
+      animation: wholesale 2s;
+    }
+    @keyframes wholesale {
+      0% {
+        margin-left: 100px;
+      }
+      100%{
+        margin-left: 0;
+      }
+    }
+    .стандартный{
+      animation: stan 2s ;
     }
 
     label {
@@ -710,10 +813,62 @@
       border: 1px solid #DEDEDE;
       box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
       border-radius: 10px;
+      animation: name 2s;
+    }
+    @keyframes name {
+      0% {
+        margin-left: -500px;
+      }
+      40%{
+        margin-top: 50px;
+      }
+      80%{
+        margin-top: -50px;
+      }
+      100%{
+        margin-left: 0;
+      }
     }
 
     &--phone {
       margin-top: 30px;
+      animation: phone 2s;
+      @include inp
+    }
+    @keyframes phone {
+      0% {
+        margin-left: 100px;
+      }
+      100%{
+        margin-left: 0;
+      }
+    }
+
+    &--qustions {
+      margin-top: 30px;
+      animation: name 2s;
+      width: 402px;
+      height: 112px;
+      background: #FFFFFF;
+      border: 1px solid #DEDEDE;
+      box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+    }
+    @keyframes name {
+      0% {
+        margin-left: -500px;
+      }
+      40%{
+        margin-top: 50px;
+      }
+      80%{
+        margin-top: -50px;
+      }
+      100%{
+        margin-left: 0;
+      }
+    }
+
       @include inp
     }
 
@@ -734,6 +889,7 @@
       filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
       border-radius: 40px;
       margin-left: 600px;
+      margin-top: -450px;
       margin-top: -500px;
     }
 
@@ -785,6 +941,34 @@
   background: #222222;
 
   .mapi {
+
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      color: #2194FF;
+    }
+
+    &--button {
+      width: 295px;
+      height: 87px;
+      background: #2194FF;
+      box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+      border-radius: 11px;
+      font-size: 24px;
+      ign: center;
+      color: #F1F1F1;
+      text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    &--ofice {
+      width: 1140px;
+      height: 488px;
+      background: #F1F1F1;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+      border-radius: 33px;
+      margin-top: 30px;
+    }
+
 
     h1 {
       font-size: 36px;
