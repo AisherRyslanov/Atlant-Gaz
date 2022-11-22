@@ -11,6 +11,19 @@
     align-items: center;
     justify-content: space-between;
 
+    &--logo {
+      animation: logo 2s linear;
+    }
+
+    @keyframes logo {
+      0% {
+        margin-left: -300px;
+      }
+      100% {
+        margin-left: 0px;
+      }
+    }
+
     &--bars {
       font-size: 40px;
     }
@@ -203,6 +216,7 @@
       margin-top: -380px;
     }
 
+
     &--animg {
       animation: 2s circleKey linear infinite;
     }
@@ -303,6 +317,22 @@
 
     &--truck {
       margin-left: 350px;
+      animation: truck 2s ;
+    }
+
+    @keyframes truck {
+      0% {
+        margin-left: -300px;
+      }
+      40% {
+        margin-top: -40px;
+      }
+      80%{
+        margin-top: 40px;
+      }
+      100% {
+        margin-left: 350px;
+      }
     }
 
     &--arrow {
@@ -436,6 +466,59 @@
     #убрать:checked ~ .стандартный,
     #убрать:checked ~ .оптовый, {
       display: none;
+    }
+    .малый{
+    animation: mal 2s ;
+    }
+
+
+   @keyframes mal {
+     0% {
+       margin-left: -1000px;
+     }
+
+     100% {
+       margin-left: 0;
+     }
+   }
+    .средний{
+      animation: sred 2s;
+    }
+    @keyframes sred {
+      0% {
+        margin-left: 100px;
+      }
+      100%{
+        margin-left: 0;
+      }
+    }
+    .стандартный{
+      animation: stan 2s ;
+    }
+
+
+    @keyframes stan {
+      0% {
+        margin-left: -1000px;
+      }
+
+      100% {
+        margin-left: 0;
+      }
+    }
+    .оптовый{
+      animation: wholesale 2s;
+    }
+    @keyframes wholesale {
+      0% {
+        margin-left: 100px;
+      }
+      100%{
+        margin-left: 0;
+      }
+    }
+    .стандартный{
+      animation: stan 2s ;
     }
 
     label {
@@ -710,18 +793,62 @@
       border: 1px solid #DEDEDE;
       box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
       border-radius: 10px;
+      animation: name 2s;
+    }
+    @keyframes name {
+      0% {
+        margin-left: -500px;
+      }
+      40%{
+        margin-top: 50px;
+      }
+      80%{
+        margin-top: -50px;
+      }
+      100%{
+        margin-left: 0;
+      }
     }
 
     &--phone {
       margin-top: 30px;
+      animation: phone 2s;
       @include inp
+    }
+    @keyframes phone {
+      0% {
+        margin-left: 100px;
+      }
+      100%{
+        margin-left: 0;
+      }
     }
 
     &--qustions {
       margin-top: 30px;
-      @include inp
-
+      animation: name 2s;
+      width: 402px;
+      height: 112px;
+      background: #FFFFFF;
+      border: 1px solid #DEDEDE;
+      box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
     }
+    @keyframes name {
+      0% {
+        margin-left: -500px;
+      }
+      40%{
+        margin-top: 50px;
+      }
+      80%{
+        margin-top: -50px;
+      }
+      100%{
+        margin-left: 0;
+      }
+    }
+
 
     &--inp {
       display: flex;
@@ -734,7 +861,7 @@
       filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
       border-radius: 40px;
       margin-left: 600px;
-      margin-top: -500px;
+      margin-top: -450px;
     }
 
     &--quest {
