@@ -3,51 +3,997 @@
 }
 
 @media (max-width: 1200px) {
+    #price .price--btn {
+        margin-left: -115px;
+    }
+
+    #price .price--butan {
+        margin-left: 983px;
+    }
+
+    #header .header--fullhouse {
+        margin-left: -80px;
+    }
+
+    #benefits .benefits--strong {
+        width: 425px;
+        font-size: 14px;
+        margin-left: 690px;
+    }
+
+    #answers .answers--img {
+        border-radius: 40px;
+        margin-left: 565px;
+    }
+
+    #mapi .mapi--ofice {
+        width: 1125px;
+        margin-left: -40px;
+    }
+
+    #mapi .mapi--confidentiality {
+        margin-left: 0px;
+    }
+
+    #price .price--arrow {
+        margin-left: -495px;
+    }
+
+    #section .section--kamaz {
+        margin-left: 237px;
+        width: 900px;
+    }
+
+    [class^=dg-] > [class^=dg-]:last-child {
+        margin-left: -370px;
+    }
+
+    #answers .answers--img {
+        margin-left: 511px;
+    }
 }
 
 @media (max-width: 1024px) {
+    #header .header--fullhouse {
+        margin-left: 86px;
+    }
 
+    #section .section--kamaz {
+        width: 650px;
+        margin-left: 320px;
+    }
+
+    #price {
+        margin-left: -125px;
+    }
+
+    #price .price--btn {
+        margin-left: -90px;
+    }
+
+    #benefits .benefits--transp {
+        margin-top: -450px;
+        margin-left: 60px;
+    }
+
+    #benefits .benefits--strong {
+        margin-left: 485px;
+    }
+
+    #answers {
+        margin-left: -200PX;
+    }
+
+    #mapi .mapi--ofice {
+        width: 628px;
+        margin-left: -308px;
+    }
+
+    #mapi .mapi .map {
+        width: 390px;
+        margin-left: 510px;
+    }
+
+    #mapi .mapi--data {
+        margin-left: 541px;
+    }
 }
 
 @media (max-width: 992px) {
+    #price .price--butan {
+        margin-left: 949px;
+    }
+
+    #section .section--kamaz {
+        width: 650px;
+        margin-left: 290px;
+    }
+
+    #price .price--btn {
+        margin-left: -120px;
+    }
+
+    #benefits .benefits--autoparc {
+        margin-left: 685px;
+    }
+
+    #header .header--fullhouse {
+        margin-left: 40px;
+    }
 }
 
-
 @media (max-width: 768px) {
+    #reviews .reviews .swiper-slide--olga {
+        width: 600px;
+    }
 
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        margin-left: -40px;
+    }
+
+    #section .section--kamaz {
+        width: 450px;
+        margin-left: 275px;
+        margin-bottom: 70px;
+    }
+
+    #price .price h1 {
+        width: 700px;
+        margin-left: 15px;
+    }
+
+    #price .price--title {
+        margin-left: 128px;
+        margin-top: 300px;
+    }
+
+    #price .price--friend {
+        margin-top: -490px;
+        margin-left: 303px;
+    }
+
+    #price .price--propane h3 {
+        margin-top: -440px;
+        margin-left: -300px;
+    }
+
+    #price .price--butana h3 {
+        margin-left: -250px;
+    }
+
+    #price .price--truck {
+        margin-left: -535px;
+    }
+
+    #price .price--truck {
+        margin-left: -535px;
+        padding: 0 0 60px 0;
+    }
+
+    #price .price--butan {
+        margin-left: 0;
+        margin-top: -50px;
+    }
+
+    #price .price--arrow {
+        margin-left: -315px;
+    }
+
+    #price .price--propane h2 {
+        margin-left: -320px;
+    }
+
+    #price .price--butana h2 {
+        margin-left: -250px;
+    }
+
+    #price .price--truck {
+        margin-left: 127px;
+    }
+
+    #price .price--butan {
+        margin-left: 600px;
+        margin-top: -110px;
+    }
+
+    #price .price--btn {
+        margin-left: -46px;
+    }
+
+    #benefits .benefits--transp {
+        margin-top: -312px;
+        margin-left: 0px;
+        width: 500px;
+    }
+
+    #benefits .benefits--autoparc {
+        margin-left: 430px;
+    }
+
+    #benefits .benefits--strong {
+        margin-left: 285px;
+    }
+
+    #select .select h1 {
+        width: 600px;
+        margin-left: -150px;
+    }
+
+    #answers .answers--name {
+        width: 202px;
+    }
+
+    #answers .answers--phone {
+        width: 200px;
+    }
+
+    #answers .answers--qustions {
+        width: 202px;
+    }
+
+    #answers .answers--img {
+        margin-left: 270px;
+        margin-top: -410px;
+    }
+
+    #answers .answers--roman {
+        margin-left: 222px;
+    }
+
+    #mapi .mapi--ofice {
+        width: 537px;
+        margin-left: -308px;
+    }
+
+    #mapi .mapi--firstly {
+        margin-left: 60px;
+    }
+
+    #mapi .mapi .map {
+        width: 325px;
+        margin-top: -488px;
+        margin-left: 469px;
+    }
+
+    #reviews .reviews--olga {
+        width: 459px;
+    }
+
+    #section .section--button {
+        width: 325px;
+        height: 72px;
+    }
+
+    #header .header--call {
+        padding: -1px 137px;
+        margin-left: -37px;
+    }
 }
 
 @media (max-width: 576px) {
+    #reviews .reviews .swiper-slide--olga {
+        width: 450px;
+        margin-left: -230px;
 
+    }
+
+    #reviews .reviews .swiper-slide img {
+        width: 215px;
+    }
+
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        margin-left: -405px;
+    }
+
+    #questions .questions .tabs-box {
+        width: 450px;
+    }
+
+    #price .price--truck {
+        margin-left: 110px;
+        margin-top: -300px;
+    }
+
+    #price .price--propane h3 {
+        display: none;
+    }
+
+    #price .price--propane h2 {
+        display: none;
+    }
+
+    #header .header--call {
+        padding: 0px 55px;
+    }
+
+    #section .section--delivery {
+        font-size: 50px;
+        padding: 15px 0;
+    }
+
+    #section .section--moscow {
+        font-size: 20px;
+    }
+
+    #section .section--button {
+        width: 241px;
+        height: 58px;
+    }
+
+    #section .section--kamaz {
+        width: 350px;
+        margin-left: 194px;
+    }
+
+    #price .price h1 {
+        width: 550px;
+        margin-left: 70px;
+    }
+
+    #price .price--friend {
+        margin-left: 255px;
+    }
+
+    #price .price--truck {
+        margin-left: 110px;
+    }
+
+    #price .price--butan {
+        margin-left: 476px;
+        margin-top: -96px;
+    }
+
+    #price .price--btn {
+        margin-left: -80px;
+    }
+
+    #benefits .benefits--calculator {
+        margin-left: -20px;
+    }
+
+    #benefits .benefits--certificate {
+        margin-left: -60px;
+    }
+
+    #benefits .benefits--autoparc {
+        margin-left: 270px;
+    }
+
+    #benefits .benefits--strong {
+        margin-left: 80px;
+    }
+
+    #benefits .benefits--transp {
+        width: 300px;
+    }
+
+    #select .select h1 {
+        width: 550px;
+        margin-left: -175px;
+    }
+
+    #select .select--ordergas {
+        margin-left: -60px;
+    }
+
+    #reviews .reviews--olga {
+        width: 400px;
+    }
+
+    element.style {
+        width: 500px;
+        margin-right: 30px;
+    }
+
+    #answers .answers--img {
+        margin-left: 149px;
+        margin-top: -390px;
+    }
+
+    #answers .answers--name {
+        width: 140px;
+    }
+
+    #answers .answers--phone {
+        width: 140px;
+    }
+
+    #answers .answers--qustions {
+        width: 140px;
+    }
+
+    #answers .answers--quest {
+        width: 150px;
+    }
+
+    #answers .answers--roman {
+        margin-top: 266px;
+    }
+
+    #answers .answers--image {
+        margin-left: -97px;
+    }
+
+    #mapi .mapi--ofice {
+        width: 512px;
+    }
+
+    #mapi .mapi--firstly {
+        margin-left: 100px;
+    }
+
+    #mapi .mapi .map {
+        width: 199px;
+    }
+
+    #mapi .mapi--data {
+        margin-left: 341px;
+    }
+
+    #answers .answers--bash {
+        width: 116px;
+    }
+
+    #select .select h1 {
+        margin-left: -186px;
+    }
+
+    #price .price--butana {
+        display: none;
+    }
+}
+
+@media (max-width: 452px) {
+    #section .section span {
+        padding: 195px;
+    }
+
+    #reviews .reviews .swiper-slide img {
+        width: 165px;
+    }
+
+    #reviews .reviews .swiper-slide--olga {
+        width: 307px;
+        margin-left: -350px;
+    }
+
+    .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        left: -166px;
+    }
+
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        margin-left: -700px;
+    }
+
+    #questions .questions .tabs-box {
+        width: 335px;
+    }
+
+    #mapi .mapi .map {
+        margin-top: -97px;
+    }
+
+    #header .header--num {
+        display: none;
+    }
+
+    #header .header--urgent {
+        display: none;
+    }
+
+    #header .header--wrapper {
+        display: block;
+        margin-left: -62px;
+        margin-top: 215px;
+    }
+
+    #header .header--line {
+        margin-left: 258px;
+    }
+
+    #header .header--fullhouse {
+        display: none;
+    }
+
+    #header .header {
+        margin-top: -170px;
+    }
+
+    #section {
+        margin-top: -160px;
+    }
+
+    #section .section--delivery {
+        font-size: 35px;
+        padding: 15px 0;
+    }
+
+    #section .section--moscow {
+        font-size: 15px;
+    }
+
+    #section .section--button {
+        width: 141px;
+        font-size: 10px;
+    }
+
+    #section .section--kamaz {
+        width: 250px;
+        margin-left: 175px;
+    }
+
+    #price .price h1 {
+        width: 450px;
+        margin-left: 70px;
+    }
+
+    #price .price--friend {
+        margin-left: 176px;
+    }
+
+    #price .price--propane h3 {
+        margin-left: -400px;
+    }
+
+    #price .price--propane h2 {
+        margin-left: -415px;
+    }
+
+    #price .price--butana h3 {
+        margin-left: -336px;
+    }
+
+    #price .price--butana h2 {
+        margin-left: -340px;
+    }
+
+    #price .price--truck {
+        margin-left: 110px;
+        width: 400px;
+    }
+
+    #price .price--butan {
+        margin-left: 176px;
+        margin-top: 200px;
+    }
+
+    #price .price--title {
+        margin-left: 180px;
+    }
+
+    #benefits .benefits--block1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #benefits .benefits--block2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #benefits .benefits--block3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #benefits .benefits--transp {
+        margin-top: -547px;
+        margin-left: 50px;
+    }
+
+    #benefits .benefits--autoparc {
+        margin-left: 100px;
+        margin-top: 170px;
+    }
+
+    #benefits .benefits--strong {
+        margin-left: 80px;
+        width: 300px;
+    }
+
+    #select .select h1 {
+        width: 400px;
+    }
+
+    #select .select h1 {
+        margin-left: -186px;
+        width: 400px;
+    }
+
+    #select .малый {
+        width: 300px;
+        margin-left: -100px;
+    }
+
+    #select .средний {
+        width: 300px;
+        margin-left: -100px;
+    }
+
+    #select .стандартный {
+        width: 300px;
+        margin-left: -100px;
+    }
+
+    #select .оптовый {
+        width: 300px;
+        margin-left: -100px;
+    }
+
+    element.style {
+        width: 300px;
+        margin-right: 30px;
+    }
+
+    #answers .answers--img {
+        margin-left: -1px;
+        margin-top: 0px;
+    }
+
+    #answers .answers--roman {
+        margin-top: 700px;
+    }
+
+    #answers .answers--name {
+        width: 300px;
+    }
+
+    #answers .answers--phone {
+        width: 300px;
+    }
+
+    #answers .answers--qustions {
+        width: 300px;
+    }
+
+    #answers .answers--image {
+        margin-left: -203px;
+    }
+
+    #mapi .mapi .map {
+        margin-top: -79px;
+        margin-left: 0px;
+        width: 310px;
+    }
+
+    #mapi .mapi--ofice {
+        width: 310px;
+        margin-left: 50px;
+    }
+
+    #mapi .mapi h1 {
+        margin-left: -100px;
+        margin-top: -60px;
+    }
+
+    #mapi .mapi--can {
+        margin-left: -100px;
+        margin-top: -20px;
+    }
+
+    #mapi .mapi--oficetitle {
+        margin-left: -100px;
+        margin-top: -20px;
+    }
+
+    #mapi .mapi--word {
+        margin-left: -100px;
+    }
+
+    #mapi {
+        padding: -1px 0 370px 0;
+    }
+
+    #mapi .mapi--confidentiality {
+        margin-top: 430px;
+    }
+
+    #mapi .mapi--data {
+        margin-left: 281px;
+    }
+
+    #mapi .mapi h1 {
+        margin-left: -34px;
+        margin-top: -58px;
+        padding: 20px 0;
+    }
+
+    #mapi .mapi--confidentiality {
+        margin-top: 463px;
+    }
 }
 
 @media (max-width: 451px) {
+    #section .section--delivery {
+        font-size: 35px;
+        padding: 15px 0;
+    }
 
+    #section .section--moscow {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 450px) {
+    #price .price--propane h3 {
+        display: none;
+    }
 
+    #price .price--propane h2 {
+        display: none;
+    }
 }
 
-
 @media (max-width: 425px) {
+    #answers .answers--roman {
+        margin-left: 176px;
+    }
 
+    #answers .answers--bash {
+        width: 109px;
+    }
+
+    #questions .questions .tabs-box {
+        width: 319px;
+    }
+
+    #select .select--ordergas {
+        margin-left: -136px;
+    }
+
+    #select .select--ordergas {
+        margin-left: -100px;
+    }
+
+    #section .section--kamaz {
+        width: 200px;
+        margin-left: 198px;
+    }
+
+    #section .section--kamaz {
+        width: 200px;
+    }
+
+    #select .select--ordergas {
+        margin-left: -140px;
+    }
+
+    #reviews .reviews--olga {
+        width: 260px;
+    }
+
+    #answers .answers--roman {
+        margin-top: 700px;
+        margin-left: 150px;
+    }
+
+    #answers .answers--image {
+        margin-left: -315px;
+    }
+
+    #answers .answers--bash {
+        width: 130px;
+    }
 }
 
 @media (max-width: 415px) {
-
+    #price .price h1 {
+        width: 357px;
+    }
+    #header .header--burg {
+        width: 80%;
+        padding: 8px;
+    }
+    section .section--kamaz {
+        width: 193px;
+        margin-left: 180px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        margin-left: -200px;
+    }
+    #questions .questions .tabs-box {
+        width: 309px;
+    }
 }
 
 @media (max-width: 380px) {
+    #header. .header--logo {
+        width: 100px;
+        height: 70px;
+    }
+    #header .header--wrapper {
+        margin-left: -100px;
+    }
+    #section .section span {
+        padding: 157px;
+    }
+    #select .малый {
+        margin-left: -175px;
+    }
+    #select .средний{
+        margin-left: -175px;
+    }
+    #select .стандартный{
+        margin-left: -175px;
+    }
+    #select .оптовый{
+        margin-left: -175px;
+    }
+    #select .select h1 {
+        margin-left: -215px;
+    }
+    #select {
+        padding: 0px 190px;
+    }
+    #reviews .reviews .swiper-slide--olga {
+        margin-left: -420px;
+    }
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        margin-left: -781px;
+    }
+    #questions .questions .tabs-box {
+        width: 275px;
+    }
+    #answers .answers--img {
+        margin-left: -41px;
+        margin-top: 0px;
+    }
+    #header .header--line {
+        display: none;
+    }
 
+    #section .section--kamaz {
+        width: 170px;
+        margin-left: 170px;
+    }
+
+    #price .price--truck {
+        width: 300px;
+        margin-bottom: 100px;
+    }
+
+    #benefits .benefits--transp {
+        margin-top: -640px;
+    }
+
+    #benefits .benefits--strong {
+        margin-left: 15px;
+    }
+
+    #select {
+        padding: -1px 200px;
+    }
+
+    #mapi .mapi--data {
+        margin-left: 257px;
+    }
+
+    answers .answers--img {
+        margin-left: -25px;
+    }
 }
 
 @media (max-width: 375px) {
+    #mapi .mapi--firstly {
+        margin-left: 74px;
+    }
+    #benefits .benefits--autoparc {
+        margin-left: 85px;
+    }
+    #mapi .mapi--ofice {
+        margin-left: 28px;
+    }
 
+    #benefits .benefits--transp {
+        margin-top: -550px;
+    }
+
+    #answers .answers--img {
+        margin-left: -26px;
+    }
 }
 
 @media (max-width: 320px) {
+    header .header--logo {
+        margin-left: -37px;
+    }
+    #section .section span {
+        padding: 36px;
+    }
+    #select .select h1 {
+        width: 402px;
+    }
+    #reviews .reviews .swiper-slide img {
+        width: 150px;
+    }
+    #reviews .reviews .swiper-slide--olga {
+        margin-left: -465px;
+        width: 259px;
+    }
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        margin-left: -890px;
+    }
+    #questions .questions .tabs-box {
+        width: 218px;
+    }
+    #answers .answers--img {
+        margin-left: -99px;
+    }
+    #answers .answers--bash {
+        width: 115px;
+    }
+    #benefits .benefits--transp {
+        margin-left: -1px;
+    }
+    #price .price h1 {
+        width: 347px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        margin-left: -225px;
+    }
+    #select {
+        padding: 0px 160px;
+    }
+    #header .header--logo {
+        margin-left: -100px;
+    }
 
+    #section .section--kamaz {
+        width: 257px;
+        margin-left: 18px;
+        margin-top: 40px;
+    }
+
+    #price .price h1 {
+        width: 384px;
+    }
+
+    #benefits .benefits--transp {
+        margin-top: -650px;
+    }
+
+    #benefits .benefits--autoparc {
+        margin-left: 49px;
+    }
+
+    #benefits .benefits--strong {
+        margin-left: -4px;
+    }
+
+    #select .select h1 {
+        width: 300px;
+    }
+
+    #select .select label {
+        margin-left: -70px;
+    }
+
+    #select .select form {
+        margin-left: -180px;
+    }
+
+    #select .select--ordergas:hover {
+        margin-left: -180px;
+    }
+
+    #answers .answers--img {
+        margin-left: -85px;
+    }
+
+    #answers .answers--roman {
+        margin-left: 50px;
+
+    }
+
+    #mapi .mapi--ofice {
+        width: 310px;
+        margin-left: -15px;
+    }
+
+    #mapi .mapi--data {
+        margin-left: 168px;
+        margin-top: 20px;
+    }
 }
 
 /*# sourceMappingURL=media.css.map */
