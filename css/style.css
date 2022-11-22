@@ -703,6 +703,9 @@ body {
 #answers .answers--phone {
   margin-top: 30px;
   animation: phone 2s;
+}
+#answers .answers--phone {
+  margin-top: 30px;
   width: 402px;
   height: 51px;
   background: #FFFFFF;
@@ -723,6 +726,10 @@ body {
   animation: name 2s;
   width: 402px;
   height: 112px;
+#answers .answers--qustions {
+  margin-top: 30px;
+  width: 402px;
+  height: 51px;
   background: #FFFFFF;
   border: 1px solid #DEDEDE;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -753,6 +760,7 @@ body {
   border-radius: 40px;
   margin-left: 600px;
   margin-top: -450px;
+  margin-top: -500px;
 }
 #answers .answers--quest {
   width: 220px;
